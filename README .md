@@ -25,8 +25,8 @@ Users should be able to see hover and focus states for all interactive elements 
 ![](./screenshot.jpg)
 
 ### Links
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/zMyo-gg](https://github.com/zMyo-gg)
+- Live Site URL: [https://zmyo-gg.github.io/social-links-profile-main/](https://zmyo-gg.github.io/social-links-profile-main/)
 
 ## My process
 ### Built with
