@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 384px;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-image {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin: 0 auto 24px;
+    display: block;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: hsl(0, 0%, 100%);
+}
+
+.location {
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 24px;
+}
+
+.bio {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social-links {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.social-links:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 375px) {
+    .card {
+        padding: 24px;
+    }
+}
